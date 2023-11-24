@@ -1,0 +1,56 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Roles & Permissions",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "app-access",
+      "submenu": [
+        {
+          "url": "/permission/",
+          "name": "Permission",
+          "slug": "permission"
+        },
+        {
+          "url": "/role/",
+          "name": "Roles",
+          "slug": "role"
+        }
+      ]
+    },
+    {
+      "url": "/client",
+      "name": "Client",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "client"
+    },
+    {
+      "url": "/users",
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "users"
+    },
+    {
+      "name": "Sms Managment",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "app-access",
+      "submenu": [
+        {
+          "url": "/sms_managment/",
+          "name": "Sms List",
+          "slug": "sms_managment"
+        },
+        {
+          "url": "sms_managment/sendsms/",
+          "name": "Send Sms",
+          "slug": "sendsms"
+        }
+      ]
+    }
+  ]
+}

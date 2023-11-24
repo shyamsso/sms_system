@@ -1,0 +1,50 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "url": "/client_number/",
+      "name": "My Numbers",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "app-access"
+    },
+    {
+      "name": "Payment",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "app-access",
+      "submenu": [
+        {
+          "url": "/payment/",
+          "name": "Payment",
+          "slug": "payemnt"
+        },
+        {
+          "url": "/payment/add",
+          "name": "Payment Add",
+          "slug": "payment_add"
+        }
+      ]
+    },
+    {
+      "name": "Sms Managment",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "app-access",
+      "submenu": [
+        {
+          "url": "/sms_managment/",
+          "name": "Sms List",
+          "slug": "sms_managment"
+        },
+        {
+          "url": "sms_managment/sendsms/",
+          "name": "Send Sms",
+          "slug": "sendsms"
+        }
+      ]
+    }
+  ]
+}
